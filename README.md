@@ -1,2 +1,2 @@
 # fiqueAqui
-Projeto da disciplina de desenvolvimento web do curso Bacharelado em Sistemas de Informação, onde será criada uma plataforma de Aluguel de imóveis.
+Web desenvolviment discipline project, in the Bachelor of Information Systems course and a property  rental platform will be created.
