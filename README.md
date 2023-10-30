@@ -1,9 +1,9 @@
 <h1 aling = "center"> fiqueAqui </h1>
-<p> Web desenvolviment discipline project, in the Bachelor of Information Systems course and a property  rental platform will be created.</p>
+<p> Projeto desenvolvido para a aula de desenvolvimento web, no curso de Sistemas de informação. Foi escolhido desenvolver um sistema de uma empresa de aluguel de imóveis</p>
 
 
-<h2> What is needed </h2>
-<p> You will need to download these items to run the program </p>
+<h2> O que irá precisar </h2>
+<p> Você precisa baixar esses itens paraexecutar o programa. </p>
 <ul> 
   <li> <a href= "https://www.oracle.com/java/technologies/downloads/"> Dowload JDK 10    </li>
   <li> <a href= "https://maven.apache.org/"> Dowload Maven 3.9.5  </li>
