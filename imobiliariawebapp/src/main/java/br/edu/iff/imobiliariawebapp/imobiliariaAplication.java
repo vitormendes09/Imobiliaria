@@ -1,13 +1,13 @@
-package be.edu.iff.imobiliariawebapp;
+package br.edu.iff.imobiliariawebapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ImobiliariawebappApplication {
+public class imobiliariaAplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ImobiliariawebappApplication.class, args);
+		SpringApplication.run(imobiliariaAplication.class, args);
 	}
 
 }
