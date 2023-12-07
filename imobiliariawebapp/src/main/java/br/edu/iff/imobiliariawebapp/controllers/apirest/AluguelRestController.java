@@ -62,22 +62,22 @@ public class AluguelRestController {
 	@PostMapping("/{id}/livro")
 	@ResponseBody
 	@Operation(summary = "Adicionar um imovel alugado por um cliente em expecifíco")
-	public String adicionarLivroAlugado(@PathVariable("id") Long id, Long aId) {
+	public String adicionarImovelAlugado(@PathVariable("id") Long id, Long aId) {
 		return "Livro alugado adicionado ao cliente.";
 	}
 
-	@DeleteMapping("/{id}/livro")
+	@DeleteMapping("/{id}/imovel")
 	@ResponseBody
 	@Operation(summary = "Deletar um imovel alugado por um cliente em expecifíco")
-	public String deletarLivroAlugado(@PathVariable("id") Long id, Long aId) {
-		return "Livro alugado deletado do cliente.";
+	public String deletarImovelAlugado(@PathVariable("id") Long id, Long aId) {
+		return "Imovel alugado deletado do cliente.";
 	}
 
-	@GetMapping("/{id}/livros")
+	@GetMapping("/{id}/imovel")
 	@ResponseBody
 	@Operation(summary = "Listar os imoveis alugados de um cliente em expecifíco")
-	public String listarLivrosAlugados(@PathVariable("id") Long id) {
-		return "Lista de livros alugados.";
+	public String listarImoveisAlugados(@PathVariable("id") Long id) {
+		return "Lista de imoveis alugados.";
 	}
 
 	@PostMapping("/{id}/fpagamento")
