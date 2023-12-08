@@ -63,7 +63,10 @@ public class AluguelRestController {
 	@ResponseBody
 	@Operation(summary = "Adicionar um imovel alugado por um cliente em expecifíco")
 	public String adicionarImovelAlugado(@PathVariable("id") Long id, Long aId) {
+
 		return "Imovel alugado adicionado ao cliente.";
+
+
 	}
 
 	@DeleteMapping("/{id}/imovel")
